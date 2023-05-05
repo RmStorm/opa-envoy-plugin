@@ -1,4 +1,4 @@
-module github.com/open-policy-agent/opa-envoy-plugin
+module github.com/rmstorm/opa-envoy-plugin
 
 go 1.18
 

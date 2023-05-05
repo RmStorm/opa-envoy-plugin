@@ -21,7 +21,6 @@ import (
 	ext_authz "github.com/envoyproxy/go-control-plane/envoy/service/auth/v3"
 	"google.golang.org/genproto/googleapis/rpc/code"
 
-	"github.com/open-policy-agent/opa-envoy-plugin/envoyauth"
 	"github.com/open-policy-agent/opa/ast"
 	"github.com/open-policy-agent/opa/plugins"
 	"github.com/open-policy-agent/opa/plugins/logs"
@@ -29,6 +28,7 @@ import (
 	"github.com/open-policy-agent/opa/storage/inmem"
 	"github.com/open-policy-agent/opa/topdown"
 	"github.com/open-policy-agent/opa/util"
+	"github.com/rmstorm/opa-envoy-plugin/envoyauth"
 )
 
 const exampleAllowedRequest = `{

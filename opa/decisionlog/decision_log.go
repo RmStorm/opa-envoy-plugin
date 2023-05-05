@@ -3,13 +3,13 @@ package decisionlog
 import (
 	"context"
 
-	"github.com/open-policy-agent/opa-envoy-plugin/envoyauth"
 	"github.com/open-policy-agent/opa/ast"
 	"github.com/open-policy-agent/opa/plugins"
 	"github.com/open-policy-agent/opa/plugins/logs"
 	"github.com/open-policy-agent/opa/server"
 	"github.com/open-policy-agent/opa/storage"
 	"github.com/open-policy-agent/opa/topdown"
+	"github.com/rmstorm/opa-envoy-plugin/envoyauth"
 )
 
 type internalError struct {
